@@ -1,4 +1,4 @@
-/* Gerador de Senhas: Crie um gerador de senhas que produza senhas seguras com base em critérios específicos, 
+/* Gerador de Senhas: Crie um gerador de senhas que produza senhas seguras com base em critÃ©rios especÃ­ficos, 
 como comprimento e uso de caracteres especiais. */
 
 #include <stdio.h>
@@ -8,11 +8,11 @@ como comprimento e uso de caracteres especiais. */
 int main(){
 	int numeros, i, k, j, a, qtde, b = 0;
 	char letras_min[] = "abcdefghijklmnopqrstuvwxyz";
-    char letras_mai[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    char carac[] = "@&#*$%¨<>";
-    char senha[10];
+    	char letras_mai[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    	char carac[] = "@&#*$%Â¨<>";
+    	char senha[10];
 	
-	printf("A senha irá conter: 9 digitos, letras maiusculas, letras minusculas, numeros e caracteres especiais.\n");
+	printf("A senha irÃ¡ conter: 9 digitos, letras maiusculas, letras minusculas, numeros e caracteres especiais.\n");
 	printf("Digite a quantidade de senhas que deseja gerar?: ");
 	scanf("%d", &qtde);
 	
